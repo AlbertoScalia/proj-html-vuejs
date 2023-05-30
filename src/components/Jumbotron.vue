@@ -1,9 +1,10 @@
 <template>
-    <section class="bg-light overflow-hidden d-flex flex-column justify-content-center pt-5">
+    <section class="overflow-hidden d-flex flex-column justify-content-center pt-5">
         <div class="container">
-            <span class="text-uppercase title">17 years of experience</span>
+            <span id="experience" class="text-uppercase title">17 years of experience</span>
             <h2>We Are a<br>
             Web Design <span>Agency</span></h2>
+            <Divider/>
             <p class="my-5 description">
             Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantic; a large language ocean.Separated they live in Bookmarksgrove.
             </p>
@@ -14,7 +15,6 @@
                 <span>youtube</span> -
                 <span>twitter</span> 
             </p>
-            <img class="d-xl-none w-75" src="/images/Group-35-2x.png" alt="web designer">
         </div>
         
     </section>
@@ -22,10 +22,12 @@
 
 <script>
 import ButtonPrimary from './ButtonPrimary.vue';
+import Divider from './Divider.vue';
     export default {
     name: 'Jumbotron',
     components: {
-        ButtonPrimary
+        ButtonPrimary,
+        Divider
     }
     }
 </script>
@@ -33,8 +35,13 @@ import ButtonPrimary from './ButtonPrimary.vue';
 <style lang="scss" scoped>
 @use '../assets/styles/partials/variables' as *;
 
+#experience{
+    opacity: 0;
+}
 section{
     text-align: center;
+    height: 120vh;
+    margin-top: 20vh;
 }
 .title{
     letter-spacing: 0.8rem;
@@ -58,7 +65,7 @@ p{
 }
 @media screen and (min-width: 1200px) {
     section{
-        background-image: url('/images/jumbo-img.png');
+        background-image: url('/images/Group-35-2x.png');
         background-position: calc(100% + 200px) 0;
         background-size: 60vw;
         background-repeat: no-repeat;
@@ -67,5 +74,14 @@ p{
     .description{
         max-width: 50%;
     }
+    #experience{
+        opacity: 100;
+        font-weight: bold;
+        background: $gradient-primary-topdown;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 </style>
+
+
