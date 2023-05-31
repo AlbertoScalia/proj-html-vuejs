@@ -68,4 +68,60 @@ const news = [
     }
 ]
 
-export { navbar, quickLinks, contact, showcase, news };
+const sponsors = [
+    {
+        name: 'Avant Garde',
+        image: '/images/client-1-2x.png'
+    },
+    {
+        name: 'Fast Lane',
+        image: '/images/client-9-2x.png'
+    },
+    {
+        name: 'Ron Jones',
+        image: '/images/client-7-2x.png'
+    },
+    {
+        name: 'Chippy\'s',
+        image: '/images/client-3-2x.png'
+    },
+    {
+        name: 'Bullseye',
+        image: '/images/client-4-2x.png'
+    },
+    {
+        name: 'Mighty Furnitures',
+        image: '/images/client-5-2x.png'
+    }
+];
+const links = [
+    {
+        text: 'Careers'
+    },
+    {
+        text: 'News'
+    },
+    {
+        text: 'Terms of Use'
+    },
+    {
+        text: 'Privacy Projects'
+    },
+    {
+        text: 'About'
+    },
+    {
+        text: 'Contact'
+    }];
+const contacts = [
+    {
+        text: 'Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, TX 76051'
+    },
+    {
+        text: 'info@yourdomain.com'
+    },
+    {
+        text: '+99 (0) 101 0000 888'
+    }]
+
+export { navbar, quickLinks, contact, showcase, news, sponsors, links, contacts };

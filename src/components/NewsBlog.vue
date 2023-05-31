@@ -1,5 +1,5 @@
 <template>
-    <section class="my-5 mx-2 d-flex flex-column justify-content-center">
+    <section class="my-5 d-flex flex-column justify-content-center">
         <div class="d-flex flex-column align-items-center">
             <h2 class="fs-1 fw-bold">Latest News & Our <span>Blog</span></h2>
             <Divider/>
@@ -44,6 +44,7 @@ import ButtonSecondary from './ButtonSecondary.vue'
 @use '../assets/styles/partials/variables' as *;
 section{
     height: 140vh;
+    background-color: $bg-secondary;
 }
 h2{
     

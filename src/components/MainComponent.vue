@@ -6,6 +6,8 @@
         <Showcase/>
         <Comment/>
         <NewsBlog/>
+        <CallToAction/>
+        <Sponsors/>
     </main>
 </template>
 
@@ -16,6 +18,8 @@ import LearnAbout from './LearnAbout.vue';
 import Showcase from './Showcase.vue';
 import Comment from './Comment.vue';
 import NewsBlog from './NewsBlog.vue';
+import CallToAction from './CallToAction.vue';
+import Sponsors from './Sponsors.vue';
     export default {
     name: 'MainComponent',
     components: {
@@ -24,7 +28,9 @@ import NewsBlog from './NewsBlog.vue';
         LearnAbout,
         Showcase,
         Comment,
-        NewsBlog
+        NewsBlog,
+        CallToAction,
+        Sponsors
         }
     }
 </script>
