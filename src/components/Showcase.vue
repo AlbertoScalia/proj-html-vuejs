@@ -7,7 +7,7 @@
                 <Divider/>
             </div>
             <div class="right d-flex align-items-end h-100">
-                <p class="mt-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.Separated they live in Bookmarksgrove.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.
+                <p class="mt-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.Separated they live in Bookmarksgrove.Far far away, behind the word mountains, far from thecountries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.
                 </p>
             </div>
         </div>
@@ -39,6 +39,10 @@ import ButtonPrimary from './ButtonPrimary.vue';
 
 <style lang="scss" scoped>
 @use '../assets/styles/partials/variables' as *;
+
+section{
+    margin: 20vh 0;
+}
 .left{
     width: 45%;
     .divider{

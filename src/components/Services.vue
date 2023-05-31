@@ -1,5 +1,5 @@
 <template>
-    <section class="mx-3 d-flex flex-column flex-xl-row justify-content-between align-content-center mt-5">
+    <section class="mx-3 d-flex flex-column flex-xl-row justify-content-between align-content-center ">
         <div class="left align-self-center">
             <h2 class="text-capitalize fw-bold fs-1">We are here to 
                 Make your <span>website</span> <br>
@@ -36,6 +36,10 @@ import Card from './Card.vue'
 
 <style lang="scss" scoped>
 @use '../assets/styles/partials/variables' as *;
+section{
+    margin: 20vh 0;
+}
+
 h2{
     span{
         color: $contrast-color;

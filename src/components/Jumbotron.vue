@@ -70,6 +70,8 @@ p{
         background-size: 60vw;
         background-repeat: no-repeat;
         text-align: left;
+        background-color: $bg-secondary;
+
     }
     .description{
         max-width: 50%;

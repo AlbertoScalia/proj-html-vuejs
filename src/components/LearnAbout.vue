@@ -10,10 +10,7 @@
         <div class="right">
             <h2 class="fw-bold fs-1 mt-5 mt-xl-0"> learn more about <br> our <span>missions</span>  </h2>
             <Divider/>
-            <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and
-    Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-    right at the coast of the Semantics, a large language ocean.Separated they live
-    in Bookmarksgrove.</p>
+            <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.Separated they live in Bookmarksgrove.</p>
     <ButtonPrimary :text="'read more'"/>
         </div>
     </section>
@@ -34,7 +31,8 @@ import ButtonPrimary from './ButtonPrimary.vue';
 <style lang="scss" scoped>
 @use '../assets/styles/partials/variables' as *;
 section{
-    margin: 30vh 0;
+    height: 100vh;
+    margin: 20vh 0;
     padding: 15vh;
     background-color: $bg-secondary;
     .left{
