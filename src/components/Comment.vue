@@ -1,5 +1,5 @@
 <template>
-    <section class="my-5">
+    <section>
         <div class="comment-container w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white text-center">
             <i class="fa-solid fa-quote-left"></i>
             <p class="my-5 fs-4">When it comes to barbequing, there are two main schools of
@@ -21,7 +21,7 @@
 <style lang="scss" scoped>
 @use '../assets/styles/partials/variables' as *;
 section{
-    height: 100vh;
+    height: 120vh;
     background-image: url('/images/four-businesspeople-in-a-boardroom-with-paperwork-PC4V8H4.jpg');
     background-size: cover;
     .comment-container{

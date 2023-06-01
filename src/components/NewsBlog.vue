@@ -1,12 +1,12 @@
 <template>
-    <section class="my-5 d-flex flex-column justify-content-center">
+    <section class="d-flex flex-column justify-content-center">
         <div class="d-flex flex-column align-items-center">
             <h2 class="fs-1 fw-bold">Latest News & Our <span>Blog</span></h2>
             <Divider/>
         </div>
 
-        <div class="row">
-            <div class="col-12 my-card position-relative d-flex justify-content-center" v-for="item in news">
+        <div class="row flex-column flex-lg-row align-content-center">
+            <div class="col-12 col-md-6 col-lg-4 my-card position-relative d-flex justify-content-center my-5 my-lg-0" v-for="item in news">
                 <img :src="item.image" :alt="item.title" class="img-fluid rounded-4">
                 <div id="info" class="position-absolute p-4">
                     <p>{{ item.date }} by {{ item.creator }}</p>
@@ -79,4 +79,5 @@ h2{
 .button-container{
     margin-top: 10rem;
 }
+
 </style>

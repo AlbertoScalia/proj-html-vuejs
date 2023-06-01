@@ -1,7 +1,7 @@
 <template>
     <div id="card" class="col-12 col-sm-6 col-lg-3 mb-4 position-relative text-left">
         <img :src="image" :alt="title" class="img-fluid rounded-2">
-        <div class="position-absolute description text-white d-flex flex-column justify-content-end rounded-2 text-left px-4 pb-4">
+        <div class="position-absolute description text-white d-flex flex-column justify-content-end rounded-2 px-4 pb-4">
             <h4 class="text-capitalize fw-bold">{{ title }}</h4>
             <span class="text-uppercase mb-3 fw-semibold">{{ category }}</span>
         </div>

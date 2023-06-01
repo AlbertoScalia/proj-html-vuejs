@@ -8,9 +8,8 @@
                     <input type="email" placeholder="Enter Your Email Adress" class="rounded-5">
                     <button class="text-uppercase position-absolute rounded-4">submit</button>
                 </div>
-                
             </div>
-            <div id="start" class=" shadow col-12 col-md-6 d-flex flex-column align-items-center p-5 rounded-4 w-100 mt-5 mt-md-0">
+            <div id="start" class="col-12 col-md-6 d-flex flex-column align-items-center p-5 rounded-4 w-100 mt-5 mt-md-0">
                 <span class="text-capitalize mb-2">what are you waiting for</span>
                 <h2 class="mb-5 fw-bold fs-1">Start a New Project</h2>
                 <ButtonSecondary :text="'start now'"/>
@@ -31,13 +30,12 @@ import ButtonSecondary from './ButtonSecondary.vue';
 
 <style lang="scss" scoped>
 @use '../assets/styles/partials/variables' as *;
-section{
-        background-color: $bg-secondary !important;
-    }
+
 #email{
     background: $gradient-secondary;
     color: $bg-primary;
     height: 40vh;
+    
     div{
         width: 80%;
     }
@@ -65,6 +63,8 @@ section{
     background: $hover-bg-reverse;
     color: $bg-primary;
     height: 40vh;
+    box-shadow: 6px 6px 25px 0 rgba(0,217,166,.35);
+
 }
 
 @media screen and (min-width: 768px){

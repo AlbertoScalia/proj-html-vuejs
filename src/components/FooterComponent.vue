@@ -41,7 +41,7 @@
 import { links } from '../data/data';
 import { contacts } from '../data/data';
 import Divider from './Divider.vue';
-import EndBar from './EndBar.vue'
+import EndBar from './Endbar.vue'
     export default {
     name: 'FooterComponent',
     components: {

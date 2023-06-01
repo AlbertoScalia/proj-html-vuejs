@@ -1,5 +1,5 @@
 <template>
-    <section class="d-flex flex-column flex-xl-row align-items-center position-relative">
+    <section class="d-flex flex-column flex-xl-row position-relative">
         <div class="left">
             <div id="bg-img" class="d-none d-xl-block">
                 <div class="filter"></div>
