@@ -101,7 +101,7 @@ import FooterComponent from './components/FooterComponent.vue';
   background-color: rgba(100, 100, 100, 0.7);
   &:hover{
     background: $hover-bg-reverse;
-    box-shadow: 6px 6px 25px 0 rgba(0,217,166,.35);
+    box-shadow: 6px 6px 25px 0 rgba(210, 64, 93,.35);
     cursor: pointer;
   }
 }

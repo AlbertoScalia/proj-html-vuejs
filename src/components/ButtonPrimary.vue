@@ -18,7 +18,7 @@ button{
     text-transform: uppercase;
     padding: 20px 45px;
     font-size: 0.8rem;
-    box-shadow: 6px 6px 25px 0 rgba(0,217,166,.35);
+    box-shadow: 6px 6px 25px 0 rgba(210, 64, 93,.35);
     border: none;
     &:hover{
         background: $gradient-secondary;

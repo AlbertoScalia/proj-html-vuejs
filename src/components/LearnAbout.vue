@@ -48,6 +48,7 @@ section{
             background-image: url('/images/busy-architect-PYVKWM4-1024x872.jpg');
             background-size: cover;
             border-radius: 40px;
+            
             .filter{
                 width: 100%;
                 height: 100%;

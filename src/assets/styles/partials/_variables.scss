@@ -1,9 +1,9 @@
-$gradient-primary: linear-gradient(90deg, rgba(151, 225, 96, 1) 0%, rgba(0, 217, 166, 1) 100%);
-$gradient-primary-topdown: linear-gradient(0deg, rgba(151, 225, 96, 1) 0%, rgba(0, 217, 166, 1) 100%);
+$gradient-primary: linear-gradient(90deg, rgb(210, 149, 64, 1) 0%, rgba(210, 64, 93, 1) 100%);
+$gradient-primary-topdown: linear-gradient(0deg,rgb(210, 149, 64, 1) 0%, rgba(210, 64, 93, 1) 100%);
 $gradient-secondary: linear-gradient(90deg, rgba(69, 69, 69, 1) 0%, rgba(13, 13, 13, 1) 100%);
-$hover-bg: linear-gradient(45deg, rgba(151, 225, 96, 1) 0%, rgba(0, 217, 166, 1) 100%);
-$hover-bg-reverse: linear-gradient(230deg, rgba(151, 225, 96, 1) 0%, rgba(0, 217, 166, 1) 100%);
-$contrast-color: #00D9A6;
+$hover-bg: linear-gradient(45deg, rgb(210, 149, 64, 1) 0%, rgba(210, 64, 93, 1) 100%);
+$hover-bg-reverse: linear-gradient(230deg, rgb(210, 149, 64, 1) 0%, rgba(210, 64, 93, 1) 100%);
+$contrast-color: rgb(210, 64, 93);
 $text-color: #202020;
 $text-grey: #aaaaaa;
 $icons-color: #3d3d3d;

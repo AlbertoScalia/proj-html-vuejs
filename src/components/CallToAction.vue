@@ -63,7 +63,7 @@ import ButtonSecondary from './ButtonSecondary.vue';
     background: $hover-bg-reverse;
     color: $bg-primary;
     height: 40vh;
-    box-shadow: 6px 6px 25px 0 rgba(0,217,166,.35);
+    box-shadow: 6px 6px 25px 0 rgba(210, 64, 93,.35);
 
 }
 

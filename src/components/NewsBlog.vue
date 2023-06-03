@@ -44,8 +44,8 @@ import ButtonSecondary from './ButtonSecondary.vue'
 @use '../assets/styles/partials/variables' as *;
 section{
     height: 140vh;
-    background-color: $bg-secondary;
 }
+
 h2{
     
     span{
