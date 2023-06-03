@@ -9,20 +9,12 @@
             Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantic; a large language ocean.Separated they live in Bookmarksgrove.
             </p>
             <ButtonPrimary :text="'read more'"/>
-            <div class="row">
-                <div class="col-5">
-                    <p class="text-uppercase my-5">
+                <p class="text-uppercase my-5">
                 <span>facebook</span> - 
                 <span>instagram</span> -
                 <span>youtube</span> -
                 <span>twitter</span> 
                 </p>
-                </div>
-
-                <div class="col-3 d-flex align-items-center">
-                    <ButtonPrimary :text="'read more'"/>
-                </div>
-            </div>
         </div>
         
     </section>
