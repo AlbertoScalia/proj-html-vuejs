@@ -5,8 +5,8 @@
                 <div class="filter"></div>
             </div>
             <div class="image-container">
-                <div class="upper-image"></div>
-                <div class="lower-image"></div>
+                <div class="upper-image rounded-top shadow"></div>
+                <div class="lower-image rounded-bottom shadow"></div>
             </div>
 
         </div>
@@ -44,7 +44,7 @@ section{
         #bg-img{
             position: absolute;
             z-index: 2;
-            height: 70%;
+            height: 65%;
             width: 45%;
             left: -100px;
             top: 40px;
@@ -63,7 +63,7 @@ section{
         }
 
         .image-container {
-            width: 600px; 
+            width: 550px; 
             height: 500px; 
             position: relative; 
             overflow: hidden; 
@@ -72,9 +72,10 @@ section{
 
         .upper-image {
             position: absolute; 
-            top: 0; 
-            width: 100%; 
-            height: 50%; 
+            top: 35px; 
+            width: 95%; 
+            height: 45%; 
+            right:55px;
             background-image: url('/images/businesswoman-analysing-document-P8WSNMC-1024x820.jpg'); 
             background-position: top center; 
             background-size: cover; 
@@ -82,13 +83,13 @@ section{
         }
         .lower-image {
             position: absolute; 
-            bottom: 0; 
-            width: 100%;
-            height: 50%; 
+            bottom: 40px; 
+            right: 25pxx;
+            width: 95%;
+            height: 40%; 
             background-image: url('/images/businesswoman-analysing-document-P8WSNMC-1024x820.jpg'); 
             background-position: bottom center; 
             background-size: cover; 
-            transform: translateX(-10%); 
         }
     }
     .right{
