@@ -4,8 +4,11 @@
             <div id="bg-img" class="d-none d-xl-block">
                 <div class="filter"></div>
             </div>
-            
-            <img src="/images/businesswoman-analysing-document-P8WSNMC-1024x820.jpg" alt="analysing">
+            <div class="image-container">
+                <div class="upper-image"></div>
+                <div class="lower-image"></div>
+            </div>
+
         </div>
         <div class="right">
             <h2 class="fw-bold fs-1 mt-5 mt-xl-0"> learn more about <br> our <span>missions</span>  </h2>
@@ -57,13 +60,35 @@ section{
                 opacity: 80%;
                 border-radius: 40px;
             }
-            
         }
-        img{
-            position: relative;
-            width: 80%;
-            border-radius: 20px;
+
+        .image-container {
+            width: 600px; 
+            height: 500px; 
+            position: relative; 
+            overflow: hidden; 
             z-index: 10;
+        }
+
+        .upper-image {
+            position: absolute; 
+            top: 0; 
+            width: 100%; 
+            height: 50%; 
+            background-image: url('/images/businesswoman-analysing-document-P8WSNMC-1024x820.jpg'); 
+            background-position: top center; 
+            background-size: cover; 
+            transform: translateX(10%); 
+        }
+        .lower-image {
+            position: absolute; 
+            bottom: 0; 
+            width: 100%;
+            height: 50%; 
+            background-image: url('/images/businesswoman-analysing-document-P8WSNMC-1024x820.jpg'); 
+            background-position: bottom center; 
+            background-size: cover; 
+            transform: translateX(-10%); 
         }
     }
     .right{
