@@ -58,6 +58,4 @@ section{
 .right{
     width: 50%;
 }
-
-
 </style>

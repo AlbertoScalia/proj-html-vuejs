@@ -65,7 +65,7 @@ p{
 }
 @media screen and (min-width: 1200px) {
     section{
-        background-image: url('/images/Group-35-2x.png');
+        background-image: url('/images/Group-36-2x.png');
         background-position: calc(100% + 200px) 0;
         background-size: 60vw;
         background-repeat: no-repeat;

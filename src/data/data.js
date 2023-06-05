@@ -47,6 +47,7 @@ const showcase = [
         image: '/images/cody-davis-253928-unsplash-1024x1024.jpg'
     }
 ];
+
 const news = [
     {
         title: 'Marketing ideas',
@@ -66,7 +67,7 @@ const news = [
         creator: 'Alex',
         image: '/images/simple-home-office-with-tree-PBXRXYB-large-1024x768.jpg'
     }
-]
+];
 
 const sponsors = [
     {
@@ -94,6 +95,7 @@ const sponsors = [
         image: '/images/client-5-2x.png'
     }
 ];
+
 const links = [
     {
         text: 'Careers'
@@ -113,6 +115,7 @@ const links = [
     {
         text: 'Contact'
     }];
+
 const contacts = [
     {
         text: 'Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, TX 76051'

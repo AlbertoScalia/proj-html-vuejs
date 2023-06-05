@@ -8,7 +8,6 @@
                 <div class="upper-image rounded-top shadow"></div>
                 <div class="lower-image rounded-bottom shadow"></div>
             </div>
-
         </div>
         <div class="right">
             <h2 class="fw-bold fs-1 mt-5 mt-xl-0"> learn more about <br> our <span>missions</span>  </h2>
@@ -101,5 +100,4 @@ section{
         }
     }
     }
-
 </style>

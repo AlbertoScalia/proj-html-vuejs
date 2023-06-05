@@ -3,7 +3,6 @@
         <div class="left me-2"></div>
         <div class="right"></div> 
     </div>
-    
 </template>
 
 <script>

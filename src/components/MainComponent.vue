@@ -36,5 +36,4 @@ import Sponsors from './Sponsors.vue';
 </script>
 
 <style lang="scss" scoped>
-
 </style>

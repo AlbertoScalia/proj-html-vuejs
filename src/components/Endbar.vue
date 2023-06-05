@@ -8,7 +8,6 @@
             <i class="fa-brands fa-twitter mx-4"></i>
             <i class="fa-brands fa-pinterest-p"></i>
         </div>
-        
     </div>
 </template>
 
